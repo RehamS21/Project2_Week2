@@ -19,7 +19,7 @@ public class Subscribers_passengers extends Passenger{
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
-        return 0;
+        return -1;
     }
 
     @Override

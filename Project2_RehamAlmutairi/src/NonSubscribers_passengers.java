@@ -30,7 +30,7 @@ public class NonSubscribers_passengers extends Passenger{
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
-        return 0;
+        return -1;
     }
 
     public boolean isDiscount_coupon() {
